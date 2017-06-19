@@ -1,0 +1,17 @@
+45f053bb01414ddd3aef818e90b92a85 *DESCRIPTION
+dc9f9fa4952f8a431e865b1ffb425169 *LICENSE
+9417ef4f3fcb3ce69790e4c4d1703134 *NAMESPACE
+82a9c9e22240b19ab524c7fc7f4df202 *R/XES.r
+594b25253643f55dbcbeccdc9dddcf32 *R/case_attributes_from_xes.R
+e9fb7557ebcbdef69f78bec15c8d2064 *R/eventlog_from_xes.R
+41c9856ad5ca987b70378dc20bb4fc2e *R/write_xes.R
+7158f155fc32127d373ffbe4511a3a93 *R/xes_parser.r
+5aaa6de6a4148613ce552ccd60dbea1f *R/xesreadR.R
+8ba18f03b9500571e131b09ffed8626d *build/vignette.rds
+add899297aac10b24527818861b6be99 *inst/doc/xesreadr.html
+e702b1f8ab5f7eb70d7b3da93a70a47a *inst/doc/xesreadr.rmd
+93f3e693ed91cbf995bc510f2c492a16 *man/case_attributes_from_xes.Rd
+dea73696354b57fa8dd3c4550bb82128 *man/eventlog_from_xes.Rd
+1cc43b7f20336d1c33489c9b4a7d7eb2 *man/write_xes.Rd
+667fd2454fe89509742c54b4142689b2 *man/xesreadR.Rd
+e702b1f8ab5f7eb70d7b3da93a70a47a *vignettes/xesreadr.rmd
