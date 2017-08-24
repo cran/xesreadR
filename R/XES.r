@@ -4,7 +4,8 @@ createXES<- function(file,
                      events,
                      classifiers = NULL,
                      logattributes = NULL,
-                     caseid_field = NULL){
+                     caseid_field = NULL,
+					 case_classifier){
   # File: The location of the output file
   # Traces: a dataframe where each row represents a trace and each column represents
   #         a trace attribute.
@@ -187,6 +188,7 @@ createXES<- function(file,
   addTraces()
   add('</log>')
   xml <- na.omit(xml)
+  xml <- str_replace_all(xml, case_classifier, "concept:name")
   writeLines(xml, file)
   #close(fileConn)
 }

@@ -11,6 +11,11 @@
 #' @import bupaR
 #' @import dplyr
 #' @import tidyr
+#' @importFrom purrr map
+#' @importFrom purrr map2
+#' @importFrom purrr set_names
+#' @importFrom lubridate ymd_hms
+#' @import stringr
 #' @importFrom stats median
 #' @importFrom stats na.omit
 #' @importFrom stats quantile
@@ -20,6 +25,8 @@
 #' @importFrom utils txtProgressBar
 #' @importFrom utils data
 
-globalVariables(c("case_concept.name","event_concept.name","event_time.timestamp"))
+globalVariables(c("case_concept.name","event_concept.name","event_time.timestamp",
+				  ".","EVENT_ID","n_attributes","attr_id","type","value","key",
+				  "n_attr","CASE_ID","concept:name","case_classifier","CASE_CASE_ID", "concept_instance","lifecycle_transition","org_resource", "time_timestamp"))
 
 NULL

@@ -4,14 +4,14 @@
 \alias{write_xes}
 \title{Write XES file}
 \usage{
-write_xes(eventlog, case_attributes = NULL, file = file.choose())
+write_xes(eventlog, xesfile = file.choose(), case_attributes = NULL)
 }
 \arguments{
 \item{eventlog}{An event log object}
 
-\item{case_attributes}{Data object containing case attributes}
+\item{xesfile}{Destination file}
 
-\item{file}{Destination file}
+\item{case_attributes}{List of columns containing case_attributes}
 }
 \description{
 Function for writing xes-file
