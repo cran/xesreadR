@@ -1,4 +1,4 @@
-efce37b971cb192c55d15c7707bb7dae *DESCRIPTION
+cb254f0d92230be5b6139b4939ea173e *DESCRIPTION
 dc9f9fa4952f8a431e865b1ffb425169 *LICENSE
 0491d3c4277aa05533336922e7f1c096 *NAMESPACE
 cb1be180cfdb46a0ed868dfbc2f0a9f9 *R/XES.r
@@ -7,11 +7,11 @@ f5b2fbb8654ba645fd409b14f4c20488 *R/case_attributes_from_xes.R
 f2af865158f9d07d73e8341619c99501 *R/read_xes.R
 8ff57901439248f76e553bc3dd2195bd *R/read_xes_cases.R
 0b4c7740fadbd40ef9a1554c77d16007 *R/utils.R
-ed947a838bd7263d24258a5546f2a00b *R/write_xes.R
+6599dcc795f96ed5bd27348a74226608 *R/write_xes.R
 7158f155fc32127d373ffbe4511a3a93 *R/xes_parser.r
 8cb5582e8b4b4bc96ff92f4562710da5 *R/xesreadR.R
 84b9cabedea79d785c540737e281600d *build/vignette.rds
-563ebf348bc3772c8f6479ae7d435cf4 *inst/doc/xesreadr.html
+2ba9aea805eff9599fd2269d080916d3 *inst/doc/xesreadr.html
 e702b1f8ab5f7eb70d7b3da93a70a47a *inst/doc/xesreadr.rmd
 93f3e693ed91cbf995bc510f2c492a16 *man/case_attributes_from_xes.Rd
 dea73696354b57fa8dd3c4550bb82128 *man/eventlog_from_xes.Rd

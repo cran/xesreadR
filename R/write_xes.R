@@ -17,7 +17,7 @@ write_xes <- function(eventlog,
 	if(is.null(case_attributes)){
 		if(any(str_detect(colnames(eventlog), "CASE"))) {
 			case_attributes <- eventlog %>%
-				select(starts_with("CASE_")) %>%
+				select(one_of(c(case_id(e), starts_with("CASE_")))) %>%
 				unique
 
 			sel <- setdiff(colnames(eventlog), colnames(case_attributes))
@@ -40,7 +40,7 @@ write_xes <- function(eventlog,
 				"time:timestamp" = timestamp(e),
 				"concept:instance" = activity_instance_id(e)) %>%
 		select(case_classifier, everything()) -> eventlog
-
+	
 	createXES(xesfile, traces = case_attributes , events = as.data.frame(eventlog), case_classifier = case_id(e))
 
 }
